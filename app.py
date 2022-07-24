@@ -10,6 +10,6 @@ st.header('User Input Parameters')
 with st.form(key='my_form'):
     first = st.number_input("First_Number",step=1)
     second = st.number_input("Second_Number")
-    submit_button = st.form_submit_button(label='Submit')
+    submit= st.form_submit_button(label='Submit')
 if submit:
     st.write(first-second)
